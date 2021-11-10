@@ -5,7 +5,11 @@ SaveWorkspace: Default
 AlwaysSaveHistory: Default
 
 EnableCodeIndexing: Yes
+<<<<<<< HEAD
 UseSpacesForTab: Yes
+=======
+UseSpacesForTab: No
+>>>>>>> 76ab59e3b0f3a88ceffd33273d44efbd95832dd2
 NumSpacesForTab: 2
 Encoding: UTF-8
 
