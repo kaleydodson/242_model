@@ -1,0 +1,20 @@
+---
+title: "fire behavior model"
+author: "Kaley Dodson, Alison Sells, Larissa Neilson"
+date: "11/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+matrix = matrix(c(0.5, 1, -1, 0, 0, 1, 0.5, 1, 0), ncol = 3)
+
+
+# pick ten random points from inside box and put them in p
+set.seed(2021)
+p <- st_sample(box, size = 10)
+```
+
